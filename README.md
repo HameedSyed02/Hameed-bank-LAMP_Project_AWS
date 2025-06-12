@@ -10,6 +10,7 @@ Security: IAM, Security Groups, HTTPS (with ACM/ALB), optionally Cognito
 
 Architecture Diagram
 
+"""
    User
     ↓
 Cloudflare (CDN, WAF, SSL)
@@ -21,3 +22,4 @@ Application Load Balancer (ALB)
 EC2 or Elastic Beanstalk (Flask/Node API)
     ↓
 Amazon RDS (PostgreSQL or MySQL)
+"""
